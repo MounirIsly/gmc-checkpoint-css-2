@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=IBM+Plex+Sans+Thai+Looped:wght@600&family=Roboto&family=Roboto+Condensed:ital,wght@1,400;1,700&family=Work+Sans:wght@100&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+.main-header {
+ padding: 2em 8em;
+}
+.main-header nav {
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.main-nav ul li {
+    margin: 1em;
+}
+.main-nav a {
+    text-decoration: none;
+  
+    color: gray;
+}
+.main-nav a:active {
+    color: teal;
+
+}
+.logo, .heading-1 {
+    text-align: center;
+}
+.heading-1 h1 {
+    color: #00b39b;
+    margin-top: 2em;
+    font-weight: 300;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 4em 2em;
+    justify-content: center;
+}
+.intro p {
+    width: 500px;
+    color: gray;
+    line-height: 1.75;
+    margin: 10px;
+}
+.services {
+    display: flex;
+    justify-content: center;
+}
+.service-option {
+    width: 300px;
+    padding: 2em;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.service-option h2 {
+    margin: 10px 0;
+}
+.service-option p {
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    line-height: 2em;
+}
+.patients {
+    background-color: #00b39b;
+}
+.doctors {
+    background-color: blueviolet;
+}
+.clinics {
+    background-color: rgb(35, 35, 128);
+}
+.country-selection {
+  background: transparent;
+  border: none;
+  color: rgb(247, 247, 247);
+  padding: 5px;
+  outline: none;
+}
+.country-selection option {
+    color: black;
+}
+
+.branding {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: auto;
+    padding-top: 2em;
+}
+.slogan h2 {
+    width: 200px;
+    color: #00b39b;
+    font-weight: 300;
+    
+}
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    color: gray;
+    font-weight: bold;
+}
+.partners div {
+    padding: 1em;
+}
+.references {
+    background-color: #abf3e9;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.health h1 {
+  color: #00b39b;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+.health p {
+    color: gray;
+}
+.ref-1 {
+    margin: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ref-2 {
+    display: flex;
+    margin-top: 10px;
+}
+.col-1 {
+    background-image: url(./images/logo.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    
+}
+.sub-ref {
+    margin-top: 10px;
+}
+.ref-item {
+    background-color: white;
+    margin: 10px;
+    padding: 2em;
+    width: 220px;
+    height: 250px;
+    border-radius: 5px;
+}
+.ref-item h3 {
+   color: #00b39b;
+   margin-bottom: 20px;
+   font-weight: 300;
+}
+.ref-item p {
+    color: gray;
+}
+.ref-logo {
+    width: 200px;
+    height: 200px;
+}
+.middle {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 3em;
+}
+.middle h2 {
+    margin-bottom: 20px;
+    color: #00b39b;
+    font-weight: 300;
+}
+.middle p {
+    line-height: 25px;
+    color: gray;
+}
+.cities {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.city {
+    margin: 10px;
+    border-radius: 5px;
+}
+.city:hover {
+    box-shadow: 3px 3px 5px 2px rgba(1, 2, 2, .2);
+    cursor: pointer;
+}
+.city-name {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.city-name h2 {
+    color: gray;
+    font-size: 16px;
+    font-weight: 300;
+}
+.city-name button, .openings-btn {
+    background-color: rgb(114, 114, 245);
+    padding: .8em 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+}
+.openings {
+    text-align: center;
+    padding: 2em;
+}
+.openings h1 {
+    font-weight: 400;
+    color: #00b39b;
+    margin-bottom: 15px;
+}
+footer {
+    color: gray;
+    text-align: center;
+    padding: 2em;
+    border-top: 1px solid rgb(216, 214, 214);
+}
+footer p {
+    line-height: 30px;
+    font-size: 15px;
+}
